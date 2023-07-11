@@ -39,32 +39,51 @@
 
         //  Условные операторы!
 
-
         // true/false 
 
 
-        var num_1 = 15;
-        var isHasHouse = true;
-        // true
-        //  &&-и; ||-или.
-        if(num_1 < 15 && isHasHouse) {
-                console.log("true");
-        }
+        // var num_1 = 15;
+        // var isHasHouse = true;
+        // // true
+        // //  &&-и; ||-или.
+        // if(num_1 < 15 && isHasHouse) {
+        //         console.log("true");
+        // }
 
 
-        // можно подставлять разновидность ответов!
-        else if(num_1 > 30){
-             console.log("Вариант 1");   
-        }
-        else if(num_1 == 8){
-                console.log("Вариант 2");  
-           }
-        else if(num_1 > 10){
-                console.log("Вариант 3");   
-        }
+        // // можно подставлять разновидность ответов!
+        // else if(num_1 > 30){
+        //      console.log("Вариант 1");   
+        // }
+        // else if(num_1 == 8){
+        //         console.log("Вариант 2");  
+        //    }
+        // else if(num_1 > 10){
+        //         console.log("Вариант 3");   
+        // }
 
 
-        // false
-        else{
-                console.log("false");
+        // // false
+        // else{
+        //         console.log("false");
+        // }
+
+
+
+        // switch - case
+        var stroka = "world";
+
+        switch (stroka){
+                case"4": 
+                        console.log("переменая со значением 4");
+                break;
+                case"45": 
+                        console.log("переменая со значением 45");
+                break;
+                case"world": 
+                        console.log("переменая со значением world");
+                break;
+                default:
+                        console.log("nah...");
+                break;
         }
