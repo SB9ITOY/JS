@@ -97,3 +97,9 @@
         console.log(arr.length);
         //  [2] - определеный масив!
         console.log(arr[0]);
+
+        var matrix = [
+                [2,4,6], [10, true, 0], [5.2, "i love you"]
+        ];
+        matrix [1][2] = 10;
+        console.log(matrix);
