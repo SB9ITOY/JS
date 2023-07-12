@@ -4,7 +4,7 @@
         // console.error("wdadawdawdaw")
         
         
-        
+// ------------------------------------------------------------------------------------------------------   
         
         // Математические действия
 
@@ -35,7 +35,7 @@
         // console.log("Math: " + Math.min(7, 2, 5, 9, 4, 1, 10));
         // console.log("Math: " + Math.max(7, 2, 5, 9, 4, 1, 10));
 
-
+// ------------------------------------------------------------------------------------------------------
 
         //  Условные операторы!
 
@@ -70,20 +70,30 @@
 
 
 
-        // switch - case
-        var stroka = "world";
+        // // switch - case
+        // var stroka = "world";
 
-        switch (stroka){
-                case"4": 
-                        console.log("переменая со значением 4");
-                break;
-                case"45": 
-                        console.log("переменая со значением 45");
-                break;
-                case"world": 
-                        console.log("переменая со значением world");
-                break;
-                default:
-                        console.log("nah...");
-                break;
-        }
+        // switch (stroka){
+        //         case"4": 
+        //                 console.log("переменая со значением 4");
+        //         break;
+        //         case"45": 
+        //                 console.log("переменая со значением 45");
+        //         break;
+        //         case"world": 
+        //                 console.log("переменая со значением world");
+        //         break;
+        //         default:
+        //                 console.log("nah...");
+        //         break;
+        // }
+
+// ---------------------------------------------------------------------------------------------
+
+        // Масивы
+        // [] - масив
+        var arr = [ 10, true, "world", -132, 0, 5.2];
+        // length - выводит число количиства масивов!
+        console.log(arr.length);
+        //  [2] - определеный масив!
+        console.log(arr[0]);
