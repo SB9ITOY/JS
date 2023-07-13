@@ -144,9 +144,37 @@
         //         console.log(i);
         // }
         
-        // работа циклов с масивами
-        var arr = [3,6,2,8,4,9,1,"stroka"];
-        for(var i = 0; i < arr.length; i++){
-                arr[i] *= 2;
-                console.log("Элемент " + (i + 1) + ": " + arr[i])
+        // // работа циклов с масивами
+        // var arr = [3,6,2,8,4,9,1,"stroka"];
+        // for(var i = 0; i < arr.length; i++){
+        //         arr[i] *= 2;
+        //         console.log("Элемент " + (i + 1) + ": " + arr[i])
+        // }
+
+// -----------------------------------------------------------------------------------------
+        
+        // Всплывающие окна (alert, prompt, confirm)
+
+        // // alert
+        // alert("дрочишь?!")
+
+        // // confirm
+        // var data = confirm("Взорвать Москуву?");
+        //         // console.log(data)
+        //         if(data) {
+        //                 alert("СЛава Україні!");
+        //         }
+
+        // // prompt
+        // var data = prompt( "скажите сколько вам лет?" );
+        // console.log(data);
+
+        // практика
+        var person = null;
+        if(confirm("Вы точно уверены?")){
+                person = prompt("Ведите ваше имя");
+                alert("Привет, " + person);
+        } else {
+                alert("Вы нажали на отмена")
         }
+        console.log(person);
